@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['loggedin'] = true;
         $_SESSION['username'] = $benutzer;
 
-        $host = "192.168.1.128";
+        $host = "192.168.2.11";
         $nutzer = "webuser";
         $dbpw = "superpass";
         $db = "intranet_logins_db";
