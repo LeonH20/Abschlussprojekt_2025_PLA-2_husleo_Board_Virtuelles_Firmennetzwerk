@@ -1,5 +1,5 @@
 <?php
-$host = "192.168.1.128";
+$host = "192.168.2.11";
 $nutzer = "webuser";
 $dbpw = "superpass";
 $db = "Huskaj_Solutions_DB";
