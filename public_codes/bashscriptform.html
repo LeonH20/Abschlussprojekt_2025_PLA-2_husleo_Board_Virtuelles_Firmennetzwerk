@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style_bash.css">
+  <title>Huskaj Solutions - Bash Scripts</title>
+</head>
+<body>
+
+  <h2>Bestellformular Bashscripts</h2>
+
+  <form action="/submit.php" method="POST">
+    <label for="firstname">Vorname:</label><br>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+
+    <label for="surname">Nachname:</label><br>
+    <input type="text" id="surname" name="surname" required><br><br>
+
+    <label for="email">E-Mail:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="produkt">Produkt auswählen:</label><br>
+        <select id="produkt" name="produkt" required>
+        <option value="">-- Bitte wählen --</option>
+        <option value="1">mydel.sh</option>
+        <option value="2">sysstatus.sh</option>
+        <option value="3">ordnercheck.sh</option>
+    </select><br><br>
+
+    <label for="anzahl">Anzahl:</label><br>
+    <input type="number" id="anzahl" name="anzahl" min="1" value="1" required><br><br>
+
+    <label for="nachricht">Nachricht (optional):</label><br>
+    <textarea id="nachricht" name="nachricht" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Bestellung absenden">
+  </form>
+
+</body>
+</html>
